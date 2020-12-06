@@ -180,4 +180,4 @@ plot_factors( Report=fit$Report,
               Year_Set=fit$year_labels, plotdir=paste0(rundir,"/"))
 
 saveRDS(fit, file = paste0(rundir, "/fit.rds"))
-save.image("output.RData")
+save.image(file = paste0(rundir, "/output.RData"))
