@@ -15,7 +15,7 @@ datedir = file.path( rootdir, Date)
 dir.create(datedir)
 
 #moddir
-mod<-"eof_NEUS_zoop_nocov"
+mod<-"eof_NEUS_zoop"
 rundir = file.path( datedir, mod )
 dir.create(rundir)
 
